@@ -1,0 +1,1 @@
+python inference.py --weightspath COVIDNet-CXR-2 --metaname model.meta --ckptname model --n_classes 2 --imagepath $1 --out_tensorname norm_dense_2/Softmax:0

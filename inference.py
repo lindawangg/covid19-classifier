@@ -57,5 +57,3 @@ pred = sess.run(pred_tensor, feed_dict={image_tensor: np.expand_dims(x, axis=0)}
 print('Prediction: {}'.format(inv_mapping[pred.argmax(axis=1)[0]]))
 print('Confidence')
 print(' '.join('{}: {:.3f}'.format(cls.capitalize(), pred[0][i]) for cls, i in mapping.items()))
-print('**DISCLAIMER**')
-print('Do not use this prediction for self-diagnosis. You should check with your local authorities for the latest advice on seeking medical assistance.')
