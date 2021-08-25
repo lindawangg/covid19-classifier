@@ -107,7 +107,7 @@ sniffio==1.2.0
 tensorboard==2.3.0
 tensorboard-plugin-wit==1.7.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.0
+tensorflow-gpu==2.5.1
 termcolor==1.1.0
 terminado==0.9.1
 testpath==0.4.4
